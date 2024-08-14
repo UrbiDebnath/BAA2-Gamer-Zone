@@ -52,3 +52,58 @@
     gap: 20px;
     align-items: center;
 }
+
+/*banner section*/
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.banner-content{
+    background-image: url('../images/Group 14.png');
+    background-position-x: right;
+    text-align: left;
+    padding:150px 200px 100px 80px ;
+    background-repeat: no-repeat;
+}
+.banner-image{
+    width: 600px;
+    height: fit-content;
+}
+.banner-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 50px;
+    background-image: linear-gradient(to bottom,#e893cf,#7b57df);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-para{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.banner-btn-one{
+    background-color: #4EC5F7;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 15px 35px;
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+}
+.banner-btn-two{
+    background-color: #FF42A5;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 15px 35px;
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+}

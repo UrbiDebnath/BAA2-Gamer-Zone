@@ -19,5 +19,10 @@
         align-items: center;
         justify-content: center;
     }
-
+    .banner{
+        flex-direction: column;
+    }
+    .banner-btn-one{
+        margin-top: 10px;
+    }
 }
